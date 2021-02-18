@@ -13,7 +13,7 @@
 
 body {
     background: var(--backgroundPageColor);
-    font-family: "Times New Roman", Times, serif;
+    font-family: "Arial", Times, serif;
     color: white;
 }
 
@@ -104,4 +104,14 @@ header nav a:hover {
 .button:hover { /* Quando colocar o mouse em cima acontece isso */
     background-color: white;
     color: rgba(0,0,0,.50);
+}
+
+.box-filme {
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+
+.carrousel-filmes {
+    margin-top: 5px;
 }
